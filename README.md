@@ -4,7 +4,7 @@
 
 # HTML::Pipeline Cite Gem
 
-An [HTML::Pipeline](https://github.com/jch/html-pipeline) filter for WikiMedia-style Cite references.
+An [HTML::Pipeline](https://github.com/jch/html-pipeline) filter for WikiMedia-style [Cite references](http://www.mediawiki.org/wiki/Extension:Cite/Cite.php).
 
 ## Installation
 
