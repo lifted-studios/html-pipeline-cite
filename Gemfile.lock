@@ -1,0 +1,43 @@
+PATH
+  remote: .
+  specs:
+    html-pipeline-cite (0.0.1)
+      html-pipeline (>= 0.0.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.12)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    escape_utils (0.3.1)
+    gemoji (1.4.0)
+    github-markdown (0.5.3)
+    html-pipeline (0.0.8)
+      activesupport (>= 2)
+      escape_utils (~> 0.2)
+      gemoji (~> 1.0)
+      github-markdown (~> 0.5)
+      nokogiri (~> 1.4)
+      rinku (~> 1.7)
+      sanitize (~> 2.0)
+    i18n (0.6.4)
+    minitest (3.5.0)
+    multi_json (1.6.1)
+    nokogiri (1.5.6)
+    rake (10.0.2)
+    redcarpet (2.1.1)
+    rinku (1.7.2)
+    sanitize (2.0.3)
+      nokogiri (>= 1.4.4, < 1.6)
+    yard (0.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  html-pipeline-cite!
+  minitest (~> 3.0)
+  rake (~> 10.0)
+  redcarpet
+  yard (~> 0.8)

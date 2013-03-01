@@ -1,0 +1,1 @@
+First paragraph<ref>With footnote</ref>
