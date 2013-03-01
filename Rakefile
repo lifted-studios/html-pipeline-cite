@@ -16,10 +16,6 @@ def version
   HTML::Pipeline::Cite::VERSION
 end
 
-def rubyforge_project
-  name
-end
-
 def gemspec_file
   "#{name}.gemspec"
 end
