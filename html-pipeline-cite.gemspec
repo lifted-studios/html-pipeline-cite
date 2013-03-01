@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.authors  = ["Lee Dohm"]
   s.email    = 'lee@liftedstudios.com'
   s.homepage = 'https://github.com/lifted-studios/html-pipeline-cite'
+  s.license  = 'MIT'
 
   s.require_paths = ['lib']
 
