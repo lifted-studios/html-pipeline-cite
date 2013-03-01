@@ -4,15 +4,55 @@
 
 # HTML::Pipeline Cite Gem
 
-An HTML::Pipeline filter for WikiMedia-style Cite references.
+An [HTML::Pipeline](https://github.com/jch/html-pipeline) filter for WikiMedia-style Cite references.
 
-## Installation and usage
+## Installation
 
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'html-pipeline-cite'
+```
+
+And then execute:
+
+```sh
+$ bundle
+```
+
+Or install it yourself as:
+
+```sh
+$ gem install html-pipeline-cite
+```
+
+## Usage
+
+This gem offers an `HTML::Pipeline` filter that collects references in the text and inserts a table of footnotes where instructed.
+
+Example:
+
+    <ref>This is a footnote</ref>
+
+Becomes:
+
+    <sup class="reference" id="wiki-cite_ref-1">[<a href="#wiki-cite_note-1">1</a>]</sup>
+
+It will show up as a bracketed, superscripted and anchored number at that location in the text.  Then when 
+`<references/>` is placed in the text, an ordered list of the references and their text will be placed at that
+location.  The example above would generate a list that looks like this:
+
+    <ol>
+      <li id="wiki-cite_note-1"><b><a href="#wiki-cite_ref-1">^</a></b> This is a footnote.</li>
+    </ol>
+
+<!--
 ## Troubleshooting
+-->
 
 ## Development
 
-To see what has changed in recent versions of the HTML::Pipeline Cite gem, see the [CHANGELOG](https://github.com/lifted-studios/html-pipeline-cite/blob/master/CHANGELOG.md).
+To see what has changed in recent versions of the `html-pipeline-cite` gem, see the [CHANGELOG](https://github.com/lifted-studios/html-pipeline-cite/blob/master/CHANGELOG.md).
 
 ## Core Team Members
 
