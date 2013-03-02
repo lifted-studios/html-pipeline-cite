@@ -1,7 +1,3 @@
-<!-- 
-[![Build Status](NOTE: Use something like Travis CI http://about.travis-ci.org/docs/user/getting-started/)
- -->
-
 [![Build Status](https://travis-ci.org/lifted-studios/html-pipeline-cite.png?branch=master)](https://travis-ci.org/lifted-studios/html-pipeline-cite)
 
 # HTML::Pipeline Cite Gem
@@ -30,7 +26,7 @@ $ gem install html-pipeline-cite
 
 ## Usage
 
-This gem offers an `HTML::Pipeline` filter that collects references in the text and inserts a table of footnotes where instructed.
+This gem offers an [HTML::Pipeline](https://github.com/jch/html-pipeline) filter that collects references in the text and inserts a table of footnotes where instructed.
 
 Example:
 
@@ -54,7 +50,7 @@ location.  The example above would generate a list that looks like this:
 
 ## Development
 
-To see what has changed in recent versions of the `html-pipeline-cite` gem, see the [CHANGELOG](https://github.com/lifted-studios/html-pipeline-cite/blob/master/CHANGELOG.md).
+To see what has changed in recent versions of the `html-pipeline-cite` gem, see the [CHANGELOG](CHANGELOG.md).
 
 ## Core Team Members
 
@@ -69,6 +65,6 @@ Feel free to chat with the Lifted Wiki core team (and many other users) on IRC i
 
 ## Copyright
 
-Copyright © 2013 Lee Dohm, Lifted Studios. See [LICENSE](https://github.com/lifted-studios/html-pipeline-cite/blob/master/LICENSE.md) for details.
+Copyright © 2013 Lee Dohm, Lifted Studios. See [LICENSE](LICENSE.md) for details.
 
 Project is a member of the [OSS Manifesto](http://ossmanifesto.com/).
