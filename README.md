@@ -60,8 +60,9 @@ To see what has changed in recent versions of the `html-pipeline-cite` gem, see 
 
 * [Lee Dohm](https://github.com/lee-dohm/)
 
+<!--
 ## Resources
-
+-->
 <!-- ### Other questions
 
 Feel free to chat with the Lifted Wiki core team (and many other users) on IRC in the  [#project](irc://irc.freenode.net/project) channel on Freenode, or via email on the [Project mailing list]().
