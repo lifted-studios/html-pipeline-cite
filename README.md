@@ -30,19 +30,25 @@ This gem offers an [HTML::Pipeline](https://github.com/jch/html-pipeline) filter
 
 Example:
 
-    <ref>This is a footnote</ref>
+```html
+<ref>This is a footnote</ref>
+```
 
 Becomes:
 
-    <sup class="reference" id="wiki-cite_ref-1">[<a href="#wiki-cite_note-1">1</a>]</sup>
+```html
+<sup class="reference" id="wiki-cite_ref-1">[<a href="#wiki-cite_note-1">1</a>]</sup>
+```
 
 It will show up as a bracketed, superscripted and anchored number at that location in the text.  Then when 
 `<references/>` is placed in the text, an ordered list of the references and their text will be placed at that
 location.  The example above would generate a list that looks like this:
 
-    <ol>
-      <li id="wiki-cite_note-1"><b><a href="#wiki-cite_ref-1">^</a></b> This is a footnote.</li>
-    </ol>
+```html
+<ol>
+  <li id="wiki-cite_note-1"><b><a href="#wiki-cite_ref-1">^</a></b> This is a footnote.</li>
+</ol>
+```
 
 <!--
 ## Troubleshooting
