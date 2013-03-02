@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/lifted-studios/html-pipeline-cite.png?branch=master)](https://travis-ci.org/lifted-studios/html-pipeline-cite)
-
-# HTML::Pipeline Cite Gem
+# HTML::Pipeline Cite Gem [![Build Status](https://travis-ci.org/lifted-studios/html-pipeline-cite.png?branch=master)](https://travis-ci.org/lifted-studios/html-pipeline-cite)
 
 An [HTML::Pipeline](https://github.com/jch/html-pipeline) filter for WikiMedia-style [Cite references](http://www.mediawiki.org/wiki/Extension:Cite/Cite.php).
 
